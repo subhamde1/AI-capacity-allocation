@@ -1,0 +1,16 @@
+{
+  "scope": "Author-side computational audit using a separate implementation; not external certification.",
+  "trace": {
+    "allocation_checks": 12544,
+    "independent_milp_solves": 252,
+    "max_absolute_difference": 3.1086244689504383e-15
+  },
+  "scale": {
+    "stored_solves_checked": 7101,
+    "payment_endpoints_checked": 13392,
+    "maximum_capacity_violation": 0.0,
+    "maximum_objective_error": 9.094947017729282e-13,
+    "cross_run_bound_consistency": true,
+    "limitation": "Checks primal records and bound consistency; does not independently prove solver dual bounds."
+  }
+}

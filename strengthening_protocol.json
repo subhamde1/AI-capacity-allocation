@@ -1,0 +1,8 @@
+{
+ "established_before_initial_outcomes": "2026-09-28",
+ "reconstituted_after_workspace_reset": "2026-09-29",
+ "long_budget_factor": 10,
+ "budgets_seconds": {"short_clearing":2,"short_exclusion":0.5,"long_clearing":20,"long_exclusion":5},
+ "cases": "All 45 unchanged physical instances; full, half, firm and all exclusions; six one-thread workers; independent cold starts; HiGHS seed zero. Original short-budget results retained separately.",
+ "trace": "Philly cluster_job_log. Pass jobs, one complete attempt, nonnegative waiting time, duration in (0,21600] seconds, 1-8 distinct allocated GPUs, submission before noon. Earliest eight eligible jobs per date, ordered by submission then ID. First 28 dates beginning on first eligible date 2017-09-25; first14 training, last14 holdout. Initial August8-September4 window contained no eligible jobs; availability-only amendment before outcomes. Reference starts at submission with recorded duration and GPU reservation. Whole-job delays0,6,12hours;36hour horizon. Normalize by training median GPU-seconds; each hourly capacity is0.75 times median training daily peak divided by that scale. Freeze before holdout. Reuse128 paired value/cost vectors, multiplier1. Exhaustive full,6-hour,firm,arrival,cost,value and first12-hour-only clearing. GPU-seconds are a resource proxy, not measured energy."
+}

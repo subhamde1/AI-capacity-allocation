@@ -1,0 +1,39 @@
+{
+  "cases": 1792,
+  "days": 14,
+  "zero_optimum_cases": 128,
+  "mean_welfare": [
+    71.35222069597067,
+    70.76755666208788,
+    67.859375,
+    69.8272235576923,
+    70.22345395489926,
+    71.13402157738093
+  ],
+  "mean_loss_percent": [
+    0.0,
+    0.7942312644814533,
+    4.998424899528443,
+    2.4816663521022018,
+    1.8636920809987554,
+    0.36628847499161216
+  ],
+  "max_loss_percent": [
+    0.0,
+    27.38095238095238,
+    54.76190476190476,
+    57.092407298410826,
+    48.07692307692308,
+    34.53996983408748
+  ],
+  "admission_change_half": 125,
+  "payment_change_half": 129,
+  "mode_change_half": 125,
+  "blind_violation": 741,
+  "firm_menu_change": 104,
+  "audit": {
+    "min_payment_numerator": 0,
+    "min_utility_numerator": 0,
+    "max_accounting_error_numerator": 0
+  }
+}

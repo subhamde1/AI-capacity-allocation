@@ -1,0 +1,2023 @@
+{
+  "source_sha256": "aedddbb94523e7ddf454284ce3f3211ce7175f16dd189e5f00195603c65472c6",
+  "counts": {
+    "total_jobs": 117325,
+    "in_dates": 55623,
+    "status_pass": 43628,
+    "single_attempt": 40533,
+    "valid_times_resources": 38846,
+    "eligible": 23709
+  },
+  "daily": [
+    {
+      "date": "2017-09-25",
+      "eligible": 532,
+      "selected": 8
+    },
+    {
+      "date": "2017-09-26",
+      "eligible": 625,
+      "selected": 8
+    },
+    {
+      "date": "2017-09-27",
+      "eligible": 655,
+      "selected": 8
+    },
+    {
+      "date": "2017-09-28",
+      "eligible": 238,
+      "selected": 8
+    },
+    {
+      "date": "2017-09-29",
+      "eligible": 379,
+      "selected": 8
+    },
+    {
+      "date": "2017-09-30",
+      "eligible": 130,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-01",
+      "eligible": 146,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-02",
+      "eligible": 1085,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-03",
+      "eligible": 122,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-04",
+      "eligible": 1079,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-05",
+      "eligible": 2344,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-06",
+      "eligible": 1453,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-07",
+      "eligible": 99,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-08",
+      "eligible": 222,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-09",
+      "eligible": 1093,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-10",
+      "eligible": 2039,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-11",
+      "eligible": 1096,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-12",
+      "eligible": 1581,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-13",
+      "eligible": 1236,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-14",
+      "eligible": 206,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-15",
+      "eligible": 155,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-16",
+      "eligible": 286,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-17",
+      "eligible": 1446,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-18",
+      "eligible": 509,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-19",
+      "eligible": 377,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-20",
+      "eligible": 2172,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-21",
+      "eligible": 577,
+      "selected": 8
+    },
+    {
+      "date": "2017-10-22",
+      "eligible": 1827,
+      "selected": 8
+    }
+  ],
+  "scale_E2": 156,
+  "capacity_C8": 25467,
+  "training_energy_gpu_seconds": [
+    17,
+    18,
+    19,
+    22,
+    22,
+    24,
+    28,
+    29,
+    30,
+    32,
+    32,
+    34,
+    38,
+    40,
+    40,
+    42,
+    50,
+    51,
+    53,
+    56,
+    57,
+    58,
+    59,
+    61,
+    61,
+    61,
+    62,
+    62,
+    63,
+    64,
+    64,
+    64,
+    64,
+    65,
+    66,
+    66,
+    66,
+    67,
+    67,
+    68,
+    68,
+    68,
+    70,
+    70,
+    70,
+    71,
+    73,
+    73,
+    73,
+    74,
+    74,
+    75,
+    76,
+    77,
+    78,
+    78,
+    78,
+    79,
+    79,
+    80,
+    81,
+    82,
+    84,
+    87,
+    87,
+    97,
+    108,
+    136,
+    179,
+    198,
+    206,
+    239,
+    252,
+    397,
+    402,
+    465,
+    981,
+    1418,
+    1428,
+    1461,
+    1481,
+    1495,
+    1517,
+    1531,
+    1541,
+    1750,
+    2461,
+    2466,
+    2485,
+    2545,
+    2550,
+    2576,
+    2617,
+    2625,
+    2682,
+    2969,
+    3154,
+    3193,
+    3193,
+    3545,
+    5398,
+    5586,
+    6153,
+    6246,
+    6281,
+    6401,
+    6553,
+    6686,
+    6901,
+    7031,
+    18429,
+    19772
+  ],
+  "training_peak_gpu_seconds": [
+    375,
+    472,
+    558,
+    563,
+    1720,
+    3582,
+    3600,
+    4889,
+    7200,
+    12961,
+    14400,
+    14400,
+    16388,
+    18070
+  ],
+  "batches": [
+    {
+      "date": "2017-09-25",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1504131676014_20306",
+          "submit": 117,
+          "start": 130,
+          "duration": 81,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_20310",
+          "submit": 717,
+          "start": 730,
+          "duration": 68,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_20311",
+          "submit": 1284,
+          "start": 1296,
+          "duration": 63,
+          "gpus": 4
+        },
+        {
+          "id": "application_1504131676014_20312",
+          "submit": 1318,
+          "start": 1332,
+          "duration": 76,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_20313",
+          "submit": 1477,
+          "start": 1607,
+          "duration": 6246,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_20315",
+          "submit": 1572,
+          "start": 1581,
+          "duration": 6901,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_20316",
+          "submit": 1629,
+          "start": 1639,
+          "duration": 6401,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_20317",
+          "submit": 1722,
+          "start": 1730,
+          "duration": 6153,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-09-26",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1504131676014_21328",
+          "submit": 116,
+          "start": 136,
+          "duration": 78,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_21333",
+          "submit": 505,
+          "start": 640,
+          "duration": 51,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_21336",
+          "submit": 718,
+          "start": 732,
+          "duration": 64,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_21339",
+          "submit": 1316,
+          "start": 1333,
+          "duration": 198,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_21341",
+          "submit": 1490,
+          "start": 1504,
+          "duration": 16,
+          "gpus": 2
+        },
+        {
+          "id": "application_1504131676014_21344",
+          "submit": 1671,
+          "start": 1885,
+          "duration": 12,
+          "gpus": 2
+        },
+        {
+          "id": "application_1504131676014_21345",
+          "submit": 1698,
+          "start": 1713,
+          "duration": 16,
+          "gpus": 2
+        },
+        {
+          "id": "application_1504131676014_21347",
+          "submit": 1917,
+          "start": 1929,
+          "duration": 79,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-09-27",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1504131676014_22518",
+          "submit": 117,
+          "start": 131,
+          "duration": 77,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_22522",
+          "submit": 635,
+          "start": 649,
+          "duration": 239,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_22523",
+          "submit": 701,
+          "start": 834,
+          "duration": 206,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_22524",
+          "submit": 702,
+          "start": 718,
+          "duration": 87,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_22526",
+          "submit": 717,
+          "start": 849,
+          "duration": 70,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_22527",
+          "submit": 765,
+          "start": 885,
+          "duration": 465,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_22528",
+          "submit": 777,
+          "start": 1221,
+          "duration": 397,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_22529",
+          "submit": 780,
+          "start": 1069,
+          "duration": 179,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-09-28",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1504131676014_24717",
+          "submit": 118,
+          "start": 132,
+          "duration": 70,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_24719",
+          "submit": 378,
+          "start": 571,
+          "duration": 5586,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_24720",
+          "submit": 424,
+          "start": 555,
+          "duration": 402,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_24721",
+          "submit": 717,
+          "start": 725,
+          "duration": 97,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_24722",
+          "submit": 1103,
+          "start": 1121,
+          "duration": 17,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_24723",
+          "submit": 1200,
+          "start": 1213,
+          "duration": 11,
+          "gpus": 2
+        },
+        {
+          "id": "application_1504131676014_24724",
+          "submit": 1317,
+          "start": 1326,
+          "duration": 78,
+          "gpus": 1
+        },
+        {
+          "id": "application_1504131676014_24725",
+          "submit": 1740,
+          "start": 1752,
+          "duration": 981,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-09-29",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_0039",
+          "submit": 115,
+          "start": 130,
+          "duration": 58,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_0041",
+          "submit": 517,
+          "start": 529,
+          "duration": 29,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_0042",
+          "submit": 715,
+          "start": 727,
+          "duration": 66,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_0043",
+          "submit": 879,
+          "start": 1110,
+          "duration": 19772,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_0045",
+          "submit": 1315,
+          "start": 1333,
+          "duration": 62,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_0047",
+          "submit": 1713,
+          "start": 1731,
+          "duration": 9,
+          "gpus": 2
+        },
+        {
+          "id": "application_1506638472019_0048",
+          "submit": 1915,
+          "start": 1929,
+          "duration": 70,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_0050",
+          "submit": 2515,
+          "start": 2524,
+          "duration": 78,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-09-30",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_1584",
+          "submit": 116,
+          "start": 130,
+          "duration": 71,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_1585",
+          "submit": 158,
+          "start": 171,
+          "duration": 1461,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_1586",
+          "submit": 188,
+          "start": 199,
+          "duration": 1750,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_1589",
+          "submit": 652,
+          "start": 669,
+          "duration": 87,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_1591",
+          "submit": 655,
+          "start": 669,
+          "duration": 42,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_1592",
+          "submit": 715,
+          "start": 738,
+          "duration": 59,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_1593",
+          "submit": 780,
+          "start": 794,
+          "duration": 50,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_1594",
+          "submit": 1154,
+          "start": 1191,
+          "duration": 62,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-01",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_2051",
+          "submit": 45,
+          "start": 56,
+          "duration": 30,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2058",
+          "submit": 115,
+          "start": 253,
+          "duration": 61,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2084",
+          "submit": 341,
+          "start": 358,
+          "duration": 53,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2092",
+          "submit": 402,
+          "start": 410,
+          "duration": 67,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2107",
+          "submit": 518,
+          "start": 532,
+          "duration": 14,
+          "gpus": 2
+        },
+        {
+          "id": "application_1506638472019_2122",
+          "submit": 715,
+          "start": 730,
+          "duration": 63,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2140",
+          "submit": 1112,
+          "start": 1637,
+          "duration": 34,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2141",
+          "submit": 1142,
+          "start": 1153,
+          "duration": 136,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-02",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_2499",
+          "submit": 115,
+          "start": 123,
+          "duration": 108,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2500",
+          "submit": 715,
+          "start": 723,
+          "duration": 74,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2501",
+          "submit": 1315,
+          "start": 1324,
+          "duration": 80,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2503",
+          "submit": 1915,
+          "start": 1925,
+          "duration": 82,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2506",
+          "submit": 2515,
+          "start": 2521,
+          "duration": 84,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2511",
+          "submit": 3115,
+          "start": 3251,
+          "duration": 73,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_2512",
+          "submit": 3191,
+          "start": 3199,
+          "duration": 20,
+          "gpus": 2
+        },
+        {
+          "id": "application_1506638472019_2513",
+          "submit": 3250,
+          "start": 3445,
+          "duration": 11,
+          "gpus": 2
+        }
+      ]
+    },
+    {
+      "date": "2017-10-03",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_4070",
+          "submit": 115,
+          "start": 130,
+          "duration": 79,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4071",
+          "submit": 347,
+          "start": 361,
+          "duration": 19,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4074",
+          "submit": 352,
+          "start": 361,
+          "duration": 38,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4077",
+          "submit": 715,
+          "start": 851,
+          "duration": 65,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4078",
+          "submit": 905,
+          "start": 1040,
+          "duration": 20,
+          "gpus": 2
+        },
+        {
+          "id": "application_1506638472019_4082",
+          "submit": 1315,
+          "start": 1324,
+          "duration": 73,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4089",
+          "submit": 1489,
+          "start": 1500,
+          "duration": 18429,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4135",
+          "submit": 1872,
+          "start": 1884,
+          "duration": 5398,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-04",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_4805",
+          "submit": 0,
+          "start": 193,
+          "duration": 2969,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4806",
+          "submit": 115,
+          "start": 126,
+          "duration": 73,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4810",
+          "submit": 606,
+          "start": 616,
+          "duration": 2461,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4811",
+          "submit": 715,
+          "start": 725,
+          "duration": 75,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4813",
+          "submit": 893,
+          "start": 904,
+          "duration": 3193,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4815",
+          "submit": 896,
+          "start": 903,
+          "duration": 3193,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4816",
+          "submit": 899,
+          "start": 2958,
+          "duration": 3154,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_4817",
+          "submit": 902,
+          "start": 2300,
+          "duration": 3545,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-05",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_7504",
+          "submit": 0,
+          "start": 7,
+          "duration": 2625,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_7506",
+          "submit": 9,
+          "start": 19,
+          "duration": 2466,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_7505",
+          "submit": 10,
+          "start": 20,
+          "duration": 2545,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_7507",
+          "submit": 10,
+          "start": 20,
+          "duration": 2682,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_7508",
+          "submit": 12,
+          "start": 20,
+          "duration": 74,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_7509",
+          "submit": 36,
+          "start": 45,
+          "duration": 2617,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_7510",
+          "submit": 38,
+          "start": 45,
+          "duration": 2576,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_7511",
+          "submit": 46,
+          "start": 238,
+          "duration": 2485,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-06",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_11000",
+          "submit": 8,
+          "start": 137,
+          "duration": 1495,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_11001",
+          "submit": 9,
+          "start": 642,
+          "duration": 1517,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_11003",
+          "submit": 23,
+          "start": 91,
+          "duration": 1531,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_11004",
+          "submit": 28,
+          "start": 218,
+          "duration": 1541,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_11005",
+          "submit": 32,
+          "start": 98,
+          "duration": 1418,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_11006",
+          "submit": 35,
+          "start": 224,
+          "duration": 2550,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_11007",
+          "submit": 37,
+          "start": 486,
+          "duration": 1481,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_11008",
+          "submit": 52,
+          "start": 183,
+          "duration": 1428,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-07",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_14176",
+          "submit": 115,
+          "start": 126,
+          "duration": 66,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14179",
+          "submit": 715,
+          "start": 730,
+          "duration": 67,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14181",
+          "submit": 1065,
+          "start": 1195,
+          "duration": 6281,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14182",
+          "submit": 1125,
+          "start": 1139,
+          "duration": 6686,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14183",
+          "submit": 1152,
+          "start": 1159,
+          "duration": 7031,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14184",
+          "submit": 1246,
+          "start": 1252,
+          "duration": 6553,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14185",
+          "submit": 1315,
+          "start": 1329,
+          "duration": 61,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14188",
+          "submit": 1915,
+          "start": 1925,
+          "duration": 64,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-08",
+      "train": true,
+      "jobs": [
+        {
+          "id": "application_1506638472019_14627",
+          "submit": 115,
+          "start": 124,
+          "duration": 64,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14628",
+          "submit": 715,
+          "start": 731,
+          "duration": 57,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14629",
+          "submit": 1315,
+          "start": 1329,
+          "duration": 66,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14630",
+          "submit": 1915,
+          "start": 1932,
+          "duration": 56,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14632",
+          "submit": 2515,
+          "start": 2527,
+          "duration": 64,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14633",
+          "submit": 3115,
+          "start": 3125,
+          "duration": 68,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14634",
+          "submit": 3715,
+          "start": 3731,
+          "duration": 61,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_14635",
+          "submit": 4315,
+          "start": 4321,
+          "duration": 68,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-09",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_16093",
+          "submit": 116,
+          "start": 672,
+          "duration": 66,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_16094",
+          "submit": 717,
+          "start": 725,
+          "duration": 66,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_16096",
+          "submit": 1315,
+          "start": 1443,
+          "duration": 73,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_16097",
+          "submit": 1854,
+          "start": 1864,
+          "duration": 17,
+          "gpus": 2
+        },
+        {
+          "id": "application_1506638472019_16098",
+          "submit": 1915,
+          "start": 1925,
+          "duration": 66,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_16100",
+          "submit": 2193,
+          "start": 2206,
+          "duration": 14,
+          "gpus": 2
+        },
+        {
+          "id": "application_1506638472019_16101",
+          "submit": 2515,
+          "start": 2525,
+          "duration": 73,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_16102",
+          "submit": 3115,
+          "start": 3127,
+          "duration": 65,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-10",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_17708",
+          "submit": 115,
+          "start": 123,
+          "duration": 73,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_17709",
+          "submit": 715,
+          "start": 725,
+          "duration": 66,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_17711",
+          "submit": 1315,
+          "start": 1321,
+          "duration": 73,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_17713",
+          "submit": 1494,
+          "start": 1501,
+          "duration": 7924,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_17714",
+          "submit": 1833,
+          "start": 1839,
+          "duration": 9089,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_17716",
+          "submit": 1915,
+          "start": 1921,
+          "duration": 70,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_17717",
+          "submit": 1956,
+          "start": 1962,
+          "duration": 7975,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_17718",
+          "submit": 1956,
+          "start": 1975,
+          "duration": 7970,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-11",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_20634",
+          "submit": 116,
+          "start": 133,
+          "duration": 59,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_20652",
+          "submit": 240,
+          "start": 438,
+          "duration": 149,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_20653",
+          "submit": 257,
+          "start": 387,
+          "duration": 125,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_20655",
+          "submit": 715,
+          "start": 725,
+          "duration": 65,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_20660",
+          "submit": 1316,
+          "start": 1326,
+          "duration": 65,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_20662",
+          "submit": 1535,
+          "start": 1544,
+          "duration": 5307,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_20663",
+          "submit": 1540,
+          "start": 1545,
+          "duration": 330,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_20666",
+          "submit": 1598,
+          "start": 1604,
+          "duration": 5249,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-12",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_23936",
+          "submit": 116,
+          "start": 6490,
+          "duration": 67,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_23984",
+          "submit": 715,
+          "start": 4634,
+          "duration": 54,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_23989",
+          "submit": 787,
+          "start": 9608,
+          "duration": 9563,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_23990",
+          "submit": 805,
+          "start": 6536,
+          "duration": 9078,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_23999",
+          "submit": 952,
+          "start": 4722,
+          "duration": 13688,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_24002",
+          "submit": 1007,
+          "start": 9123,
+          "duration": 9279,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_24003",
+          "submit": 1028,
+          "start": 9295,
+          "duration": 9065,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_24006",
+          "submit": 1053,
+          "start": 7122,
+          "duration": 11242,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-13",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_27430",
+          "submit": 6,
+          "start": 2466,
+          "duration": 3526,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_27432",
+          "submit": 14,
+          "start": 4163,
+          "duration": 3496,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_27434",
+          "submit": 24,
+          "start": 8129,
+          "duration": 5783,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_27436",
+          "submit": 35,
+          "start": 6081,
+          "duration": 3417,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_27437",
+          "submit": 38,
+          "start": 7419,
+          "duration": 3529,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_27438",
+          "submit": 40,
+          "start": 7223,
+          "duration": 3681,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_27439",
+          "submit": 45,
+          "start": 4689,
+          "duration": 3698,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_27440",
+          "submit": 60,
+          "start": 3847,
+          "duration": 3485,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-14",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_29724",
+          "submit": 25,
+          "start": 56,
+          "duration": 3628,
+          "gpus": 8
+        },
+        {
+          "id": "application_1506638472019_29725",
+          "submit": 115,
+          "start": 183,
+          "duration": 68,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_29728",
+          "submit": 588,
+          "start": 600,
+          "duration": 11,
+          "gpus": 2
+        },
+        {
+          "id": "application_1506638472019_29729",
+          "submit": 693,
+          "start": 822,
+          "duration": 17,
+          "gpus": 2
+        },
+        {
+          "id": "application_1506638472019_29730",
+          "submit": 715,
+          "start": 782,
+          "duration": 70,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_29732",
+          "submit": 1132,
+          "start": 1139,
+          "duration": 27,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_29733",
+          "submit": 1316,
+          "start": 1326,
+          "duration": 64,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_29736",
+          "submit": 1724,
+          "start": 1801,
+          "duration": 15063,
+          "gpus": 4
+        }
+      ]
+    },
+    {
+      "date": "2017-10-15",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_31613",
+          "submit": 115,
+          "start": 243,
+          "duration": 70,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_31614",
+          "submit": 132,
+          "start": 142,
+          "duration": 18,
+          "gpus": 2
+        },
+        {
+          "id": "application_1506638472019_31618",
+          "submit": 688,
+          "start": 1140,
+          "duration": 5012,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_31619",
+          "submit": 715,
+          "start": 721,
+          "duration": 68,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_31620",
+          "submit": 776,
+          "start": 1032,
+          "duration": 4867,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_31621",
+          "submit": 1020,
+          "start": 1359,
+          "duration": 4714,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_31622",
+          "submit": 1048,
+          "start": 1056,
+          "duration": 5093,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_31623",
+          "submit": 1315,
+          "start": 1619,
+          "duration": 68,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-16",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_32097",
+          "submit": 124,
+          "start": 141,
+          "duration": 62,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_32098",
+          "submit": 714,
+          "start": 728,
+          "duration": 66,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_32099",
+          "submit": 1315,
+          "start": 1332,
+          "duration": 63,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_32101",
+          "submit": 1915,
+          "start": 1927,
+          "duration": 69,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_32102",
+          "submit": 2105,
+          "start": 2182,
+          "duration": 7781,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_32103",
+          "submit": 2346,
+          "start": 2357,
+          "duration": 8215,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_32104",
+          "submit": 2406,
+          "start": 2424,
+          "duration": 7798,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_32105",
+          "submit": 2407,
+          "start": 2424,
+          "duration": 8231,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-17",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_34203",
+          "submit": 296,
+          "start": 496,
+          "duration": 4905,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_34207",
+          "submit": 346,
+          "start": 362,
+          "duration": 3794,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_34210",
+          "submit": 539,
+          "start": 1026,
+          "duration": 322,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_34216",
+          "submit": 715,
+          "start": 724,
+          "duration": 68,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_34222",
+          "submit": 887,
+          "start": 1079,
+          "duration": 339,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_34223",
+          "submit": 887,
+          "start": 909,
+          "duration": 3794,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_34226",
+          "submit": 887,
+          "start": 1026,
+          "duration": 3982,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_34227",
+          "submit": 887,
+          "start": 1018,
+          "duration": 337,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-18",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1506638472019_37473",
+          "submit": 115,
+          "start": 508,
+          "duration": 78,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_37559",
+          "submit": 659,
+          "start": 749,
+          "duration": 4534,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_37560",
+          "submit": 715,
+          "start": 1000,
+          "duration": 65,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_37564",
+          "submit": 1007,
+          "start": 1023,
+          "duration": 5488,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_37565",
+          "submit": 1068,
+          "start": 1259,
+          "duration": 8269,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_37566",
+          "submit": 1069,
+          "start": 1314,
+          "duration": 14246,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_37567",
+          "submit": 1070,
+          "start": 1076,
+          "duration": 10550,
+          "gpus": 1
+        },
+        {
+          "id": "application_1506638472019_37568",
+          "submit": 1074,
+          "start": 1083,
+          "duration": 14981,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-19",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1508364558011_0224",
+          "submit": 51,
+          "start": 760,
+          "duration": 1963,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_0238",
+          "submit": 702,
+          "start": 929,
+          "duration": 9,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_0240",
+          "submit": 715,
+          "start": 760,
+          "duration": 30,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_0242",
+          "submit": 850,
+          "start": 916,
+          "duration": 29,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_0245",
+          "submit": 1028,
+          "start": 1036,
+          "duration": 76,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_0248",
+          "submit": 1315,
+          "start": 1330,
+          "duration": 61,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_0257",
+          "submit": 1873,
+          "start": 1887,
+          "duration": 33,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_0261",
+          "submit": 1915,
+          "start": 1931,
+          "duration": 61,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-20",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1508364558011_1760",
+          "submit": 115,
+          "start": 858,
+          "duration": 69,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_1762",
+          "submit": 584,
+          "start": 790,
+          "duration": 2289,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_1763",
+          "submit": 588,
+          "start": 797,
+          "duration": 2005,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_1764",
+          "submit": 591,
+          "start": 796,
+          "duration": 1658,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_1765",
+          "submit": 595,
+          "start": 790,
+          "duration": 1452,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_1766",
+          "submit": 599,
+          "start": 797,
+          "duration": 1848,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_1767",
+          "submit": 603,
+          "start": 797,
+          "duration": 2120,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_1768",
+          "submit": 606,
+          "start": 1003,
+          "duration": 2252,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-21",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1508364558011_6034",
+          "submit": 115,
+          "start": 303,
+          "duration": 72,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_6038",
+          "submit": 715,
+          "start": 724,
+          "duration": 67,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_6041",
+          "submit": 1315,
+          "start": 1448,
+          "duration": 76,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_6042",
+          "submit": 1428,
+          "start": 1504,
+          "duration": 41,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_6043",
+          "submit": 1524,
+          "start": 1537,
+          "duration": 7056,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_6044",
+          "submit": 1687,
+          "start": 1699,
+          "duration": 5562,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_6045",
+          "submit": 1705,
+          "start": 1715,
+          "duration": 6833,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_6046",
+          "submit": 1857,
+          "start": 1863,
+          "duration": 6162,
+          "gpus": 1
+        }
+      ]
+    },
+    {
+      "date": "2017-10-22",
+      "train": false,
+      "jobs": [
+        {
+          "id": "application_1508364558011_8786",
+          "submit": 115,
+          "start": 137,
+          "duration": 80,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_8787",
+          "submit": 715,
+          "start": 727,
+          "duration": 83,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_8789",
+          "submit": 1173,
+          "start": 1187,
+          "duration": 6403,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_8791",
+          "submit": 1236,
+          "start": 1765,
+          "duration": 6980,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_8794",
+          "submit": 1915,
+          "start": 1937,
+          "duration": 73,
+          "gpus": 1
+        },
+        {
+          "id": "application_1508364558011_8795",
+          "submit": 2101,
+          "start": 2176,
+          "duration": 144,
+          "gpus": 8
+        },
+        {
+          "id": "application_1508364558011_8796",
+          "submit": 2219,
+          "start": 2642,
+          "duration": 16,
+          "gpus": 2
+        },
+        {
+          "id": "application_1508364558011_8797",
+          "submit": 2515,
+          "start": 2603,
+          "duration": 64,
+          "gpus": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "[3, 2, 1]": {
+    "W": 27,
+    "modes": [
+      1,
+      2,
+      2
+    ],
+    "payments_before_repair": [
+      2,
+      0,
+      0
+    ],
+    "retained_one_based": [
+      1,
+      2
+    ],
+    "true_utilities_after_repair": [
+      8,
+      8,
+      0
+    ]
+  },
+  "[3, 2, 4]": {
+    "W": 25,
+    "modes": [
+      2,
+      2,
+      1
+    ],
+    "payments_before_repair": [
+      0,
+      0,
+      3
+    ],
+    "retained_one_based": [
+      3,
+      1
+    ],
+    "true_utilities_after_repair": [
+      7,
+      0,
+      7
+    ]
+  },
+  "ranking_r_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "repair_gain": 7
+}

@@ -1,0 +1,14 @@
+{
+  "chain_checks": 400,
+  "max_chain_error": 0.0,
+  "greedy_checks": 100,
+  "max_greedy_error": 0.0,
+  "enumerated_allocations": 1562500,
+  "max_matching_enumeration_error": 0.0,
+  "chain_example": [
+    7.0,
+    5.0,
+    4.0
+  ],
+  "W": 23.0
+}
