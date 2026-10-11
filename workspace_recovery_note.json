@@ -1,0 +1,4 @@
+{
+  "date": "2026-09-30",
+  "note": "After a transient workspace reset, the frozen protocol and addendum were restored byte-for-byte from retained conversation records and their original SHA-256 hashes verified. The executable programs and output files were reconstructed and rerun; the full numerical summaries were checked against the prior run. No design parameters or case exclusions were changed."
+}

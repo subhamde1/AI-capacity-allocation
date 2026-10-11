@@ -1,0 +1,5 @@
+{
+  "correction": "Common bundle capacity is r-1, equal to 2 only in the r=3 illustrative instance. The enumerated broad-alone or narrow-subset family and recorded outcomes were unchanged.",
+  "source": "Theorem 3",
+  "audit": "All binary portfolios are checked against explicit integer load matrices for every r."
+}

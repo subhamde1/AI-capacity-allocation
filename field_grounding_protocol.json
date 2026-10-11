@@ -1,0 +1,93 @@
+{
+  "title": "Institutionally grounded sensitivity extension",
+  "frozen_at_utc": "2026-09-30T11:45:15.364330+00:00",
+  "chronology": "Fixed after the existing Section 8.8 outcomes were known, before computing this extension. Reuses its holdout dates; not a new independent holdout or registered protocol.",
+  "source_input_sha256": "c923c754b90eb3080c6a12a73e8118875e22f5c142bd030b48551efde2145b0e",
+  "institutional_source": "https://www.ukpowernetworks.co.uk/new-electricity-connections/distributed-energy-resources-der-generation/profiled-connection",
+  "institutional_mapping": "Fixed-profile option: published illustrative contractual availability is 3000 kVA at 00:00–06:00 and 1000 kVA otherwise. Retain clock windows and normalized 3:1 shape, and translate it to an aggregate resource envelope. Absolute electrical units, site eligibility and utility approval are not inferred from GPU data.",
+  "dates": "All 14 previously selected holdout dates, 2017-10-09 to 2017-10-22",
+  "financial_vectors": 128,
+  "value_seed": 20260929,
+  "cost_seed": 20260922,
+  "value_scale_A_over_4": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "cost_scale_B_over_4": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "capacity_scale_R_over_4": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "overnight_ratio_G": [
+    1,
+    2,
+    3
+  ],
+  "capacity_formula": "C_raw(t) = (R/4)*(8489/2)*(G if t mod 24 < 6 else 1); test 8*load(t)<=R*8489*(G if t mod 24 < 6 else 1). Training median peak=4244.5 GPU-seconds.",
+  "objective_numerator": "156*A*sum(v0_i for admitted i) - B*sum(c0_i*E_i*max(mode_i-1,0)); denominator=624.",
+  "modes": "0 reject, 1 reference, 2 six-hour delay, 3 twelve-hour delay; same 36-hour profiles and exposures as Section 8.8.",
+  "policies": [
+    "full recovery-aware",
+    "six-hour-only catalog",
+    "recovery-blind clearing on first 12 constraints",
+    "gross-value-first retained-set reoptimization"
+  ],
+  "tie_rule": "First mode vector in lexicographic order, as in Section 8.8.",
+  "case_count": 645120,
+  "economic_capacity_cells": 360,
+  "outcomes": [
+    "blind allocation and admission differences and complete-horizon infeasibility",
+    "identical reference-profile menu changes when competitors lose twelve-hour options",
+    "identical reference-profile menu and admission changes across adjacent overnight ratios",
+    "strict gross-value admission reversals",
+    "gross-value priority-rule welfare loss",
+    "exchange-property violations of the feasible admitted-set family"
+  ],
+  "scope": "Descriptive sensitivity, no causal field effects, no empirical private preferences, no actual grid capacities, no population probabilities or confidence intervals.",
+  "zero_cases": "Retain all zero-optimum cases in level/count denominators; exclude only undefined relative losses.",
+  "bundle_diagnostic": {
+    "r": [
+      2,
+      3,
+      4,
+      8
+    ],
+    "narrow_value": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "broad_value_ratio_num_over_4": [
+      4,
+      5,
+      6,
+      8,
+      12,
+      16,
+      24,
+      32
+    ],
+    "common_exposure_cost_ratio_num_over_4": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "mode": "Same broad-versus-disjoint-narrow bundle construction as Theorem 3. One normalized exposure unit each; per-period capacity 1/r and common capacity 2. Net values can be nonpositive; rejection allowed. Gross-value-first rule scans largest value first with deterministic broad-first ties.",
+    "cases": 512
+  },
+  "audit": "Exact integer allocation/payment/IR/accounting checks for all records; independently enumerated sampled profiles and a baseline comparison; separate bundle arithmetic in Wolfram."
+}

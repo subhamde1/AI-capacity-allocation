@@ -1,0 +1,39 @@
+{
+  "frozen_at_utc": "2026-09-30T11:50:36.875077+00:00",
+  "reason": "The published overnight shape changes both reference and recovery-hour headroom. A separately frozen matched comparison varies only hours 12\u201335 to isolate recovery capacity. The primary run had executed; no primary outcome summaries had been inspected when this addendum was fixed.",
+  "base_protocol_sha256": "aaa5cf347938d3fac0f2f14766b5e2a2326ed03b00b054220e3a51f12e350770",
+  "overnight_ratio_G": 3,
+  "recovery_multiplier_D_over_2": [
+    1,
+    2,
+    4
+  ],
+  "fixed": "All first-12-hour capacities, all profiles and types fixed within each pair. Only capacity from hour 12 onward is multiplied by D/2.",
+  "scope": "Diagnostic perturbation, not another observed utility rule. Two adjacent comparisons 1/2 to 1 and 1 to 2; 430080 paired comparisons, 645120 recorded cases, including 215040 anchors shared with the primary envelope.",
+  "audit_selection": {
+    "financial_vectors": [
+      0,
+      127
+    ],
+    "A_B_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        16,
+        1
+      ]
+    ],
+    "physical": "every date and capacity setting",
+    "method": "Independent direct enumeration without admitted-set compression."
+  }
+}

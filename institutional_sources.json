@@ -1,0 +1,47 @@
+{
+  "documents": [
+    {
+      "author": "National Grid Electricity Distribution",
+      "year": "n.d.",
+      "title": "Alternative connections",
+      "location": "Definition, curtailment and duration questions",
+      "extract": "connect ahead of required reinforcement",
+      "role": "Restricted early access; offer-specific capacity restrictions",
+      "url": "https://connections.nationalgrid.co.uk/alternative-connections",
+      "accessed": "2026-09-30"
+    },
+    {
+      "author": "UK Power Networks",
+      "year": "n.d.",
+      "title": "Profiled Connection",
+      "location": "Illustrative profile table and fixed-profile option",
+      "extract": "maximum demand limit (in kVA) varies according to the time of day",
+      "role": "00:00\u201306:00 3000-kVA versus remaining-hours 1000-kVA illustrative availability; resource scale and clock alignment are modeled",
+      "url": "https://www.ukpowernetworks.co.uk/new-electricity-connections/distributed-energy-resources-der-generation/profiled-connection",
+      "accessed": "2026-09-30"
+    },
+    {
+      "author": "UK Power Networks",
+      "year": 2025,
+      "title": "Profiled connections FAQ",
+      "version": "1.0, November 2025",
+      "location": "Sections 2, 4\u20135, 7.2, 8.1 and 9; pages 3\u20135, 8, 10\u201311",
+      "extract": "two fixed capacity windows without a DNP3 communication interface",
+      "role": "HV/EHV scope and compliance qualifications; the FAQ\u2019s distinct numerical default and example are not substituted for the web schedule",
+      "url": "https://media.umbraco.io/ukpn-cms/kakdjoic/profiled_connection_faq_-derms-_v1.pdf",
+      "accessed": "2026-09-30"
+    },
+    {
+      "author": "Ohio Power Company",
+      "year": 2026,
+      "title": "Schedule DCT, Data Center Tariff",
+      "version": "PUCO No. 22, first revised Sheets 223-1\u2013223-8, effective August 28, 2026",
+      "location": "Sheets 223-1\u2013223-4 and 223-6; September tariff-book PDF pages 113\u2013116, 118",
+      "extract": "aggregate monthly maximum demand of greater than 25,000 kW",
+      "role": "Large-load definition and commercial scope; billing minima are not physical consumption requirements or observed private values",
+      "url": "https://www.aepohio.com/lib/docs/ratesandtariffs/Ohio/September_2026_AEP_Ohio_Tariff_Book.pdf",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "scope": "Official public institutional primitives; no private economic estimates"
+}

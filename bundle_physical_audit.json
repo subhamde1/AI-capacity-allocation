@@ -1,0 +1,6 @@
+{
+  "cases": 512,
+  "errors": 0,
+  "common_capacity": "r-1, equal to 2 only when r=3",
+  "method": "Explicit integer load matrices, all binary portfolios, energy conservation and exact objective enumeration."
+}

@@ -1,0 +1,143 @@
+{
+  "cases": 645120,
+  "cells": 360,
+  "cases_per_cell": 1792,
+  "flag_order": [
+    "blind_infeasible",
+    "blind_admission_change",
+    "half_admission_change",
+    "half_firm_menu_change",
+    "gross_value_reversal",
+    "gross_value_greedy_loss",
+    "zero_optimum"
+  ],
+  "counts": [
+    207305,
+    206621,
+    81182,
+    72757,
+    306487,
+    10926,
+    7680
+  ],
+  "cell_min_counts": [
+    60,
+    60,
+    27,
+    13,
+    108,
+    0,
+    0
+  ],
+  "cell_max_counts": [
+    1536,
+    1536,
+    1152,
+    1143,
+    1411,
+    252,
+    128
+  ],
+  "cells_with_event": [
+    360,
+    360,
+    360,
+    360,
+    360,
+    265,
+    60
+  ],
+  "published_profile_cases": 215040,
+  "published_profile_counts": [
+    59424,
+    58873,
+    14633,
+    14404,
+    69621,
+    2244,
+    0
+  ],
+  "exchange_failure_settings": 3,
+  "recovery_pairs": [
+    {
+      "from_delta": 0.5,
+      "to_delta": 1,
+      "comparisons": 215040,
+      "admission_change_cases": 13287,
+      "common_finite_menu_change_cases": 13770,
+      "cases_with_common_finite_menu": 215040,
+      "common_profile_comparisons": 1693440,
+      "profile_price_increases": 2643,
+      "profile_price_decreases": 65584,
+      "cells_with_admission_change": 120,
+      "cells_with_menu_change": 120
+    },
+    {
+      "from_delta": 1,
+      "to_delta": 2,
+      "comparisons": 215040,
+      "admission_change_cases": 51477,
+      "common_finite_menu_change_cases": 41460,
+      "cases_with_common_finite_menu": 215040,
+      "common_profile_comparisons": 1693440,
+      "profile_price_increases": 2055,
+      "profile_price_decreases": 149950,
+      "cells_with_admission_change": 120,
+      "cells_with_menu_change": 120
+    }
+  ],
+  "recovery_anchor_matches": 215040,
+  "overnight_shape_pairs": [
+    {
+      "from_gamma": 1,
+      "to_gamma": 2,
+      "comparisons": 215040,
+      "admission_change_cases": 155540,
+      "common_finite_menu_change_cases": 102029,
+      "common_profile_comparisons": 1374720,
+      "newly_feasible_reference_profiles": 314880
+    },
+    {
+      "from_gamma": 2,
+      "to_gamma": 3,
+      "comparisons": 215040,
+      "admission_change_cases": 97521,
+      "common_finite_menu_change_cases": 109098,
+      "common_profile_comparisons": 1689600,
+      "newly_feasible_reference_profiles": 3840
+    }
+  ],
+  "bundle": {
+    "cases": 512,
+    "higher_value_exclusions": 164,
+    "priority_losses": 212,
+    "positive_optimum_cases": 496,
+    "min_greedy_ratio": 0.125,
+    "by_r": [
+      {
+        "r": 2,
+        "cases": 128,
+        "higher_value_exclusions": 20,
+        "priority_losses": 32
+      },
+      {
+        "r": 3,
+        "cases": 128,
+        "higher_value_exclusions": 32,
+        "priority_losses": 44
+      },
+      {
+        "r": 4,
+        "cases": 128,
+        "higher_value_exclusions": 44,
+        "priority_losses": 56
+      },
+      {
+        "r": 8,
+        "cases": 128,
+        "higher_value_exclusions": 68,
+        "priority_losses": 80
+      }
+    ]
+  }
+}

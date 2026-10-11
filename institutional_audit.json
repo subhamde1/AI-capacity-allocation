@@ -1,0 +1,9 @@
+{
+  "recorded_cases": 645120,
+  "policy_primal_records_checked": 2580480,
+  "direct_enumeration_cases": 1344,
+  "sampled_fixed_profile_menu_endpoints_checked": 21504,
+  "errors": 0,
+  "scope": "Independent formulation from second-by-second binning and direct 65536-mode enumeration; same public inputs and exact integer definitions. Author-side computational verification.",
+  "script_sha256": "2c079b74d5779ebb0e4712cafda48b79ca1fc3d5d4b198d2a3470f06a4964c03"
+}

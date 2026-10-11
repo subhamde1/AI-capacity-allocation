@@ -1,0 +1,13 @@
+{
+  "wolfram_bundle_arithmetic": {
+    "cases": 512,
+    "strict_higher_value_exclusions": 164,
+    "priority_losses": 212,
+    "minimum_positive_optimum_ratio": "1/8"
+  },
+  "academic_writing_paragraph_logic_review": {
+    "paragraphs": 3,
+    "issues": 0
+  },
+  "scope": "Targeted computational and editorial checks, not external certification"
+}
